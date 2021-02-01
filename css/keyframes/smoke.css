@@ -1,0 +1,11 @@
+@keyframes smoke {
+  0% {
+    background: radial-gradient(96.88% 192.89% at 8.74% 7.24%, #000000 0%, #000000 19.27%, #000000 65.62%, #000000 100%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  100% {
+    background: radial-gradient(96.88% 192.89% at 8.74% 7.24%, #56457D 0%, #372759 19.27%, #271A43 65.62%, #24104F 100%);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+/*# sourceMappingURL=smoke.css.map */

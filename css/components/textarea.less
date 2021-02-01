@@ -1,0 +1,28 @@
+.textarea {
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #0c0c0c;
+  color: white;
+  box-shadow: none;
+  min-height: 200px;
+  max-height: 300px;
+
+  &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #333333;
+    opacity: 1; /* Firefox */
+  }
+
+  &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #333333;
+  }
+
+  &::-ms-input-placeholder { /* Microsoft Edge */
+    color: #333333;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+}

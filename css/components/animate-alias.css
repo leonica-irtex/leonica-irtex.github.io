@@ -1,0 +1,19 @@
+.animate-show-words {
+  opacity: 0;
+  animation: rise 0.3s cubic-bezier(0.87, 0, 0.04, 1) 1 forwards;
+}
+.animate-bounce {
+  animation: bounce-x 1s infinite;
+}
+.animate-bounce-x {
+  animation: bounce-x 1s infinite;
+}
+.animate-bounce-y {
+  animation: bounce-y 1s infinite;
+}
+.animate-show-wait {
+  opacity: 0;
+  animation: rise 0.3s cubic-bezier(0.87, 0, 0.04, 1) 1 forwards;
+  animation-delay: 4s;
+}
+/*# sourceMappingURL=animate-alias.css.map */

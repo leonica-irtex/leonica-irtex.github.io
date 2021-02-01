@@ -1,0 +1,58 @@
+/**
+ * Importing components and other markup elements
+ */
+@import 'components/body';
+@import 'components/textarea';
+@import 'components/input';
+@import 'components/button';
+@import 'components/h1-6';
+@import 'components/font';
+@import 'components/animate-alias';
+@import 'components/text';
+@import 'components/placeholder';
+@import 'components/transition';
+@import 'components/gradient';
+@import 'components/progress-bar';
+
+@import 'keyframes/rise';
+@import 'keyframes/smoke';
+@import 'keyframes/bounce-y';
+@import 'keyframes/bounce-x';
+
+.sections {
+  width: calc(100% * 2);
+}
+
+#component-projects {
+  position: absolute;
+  right: -840px;
+  display: block;
+  width: 910px;
+  top: 0;
+  height: 100vh;
+}
+
+.card-of-price {
+  border-radius: 6px;
+}
+
+.box-shadow-picker {
+  border: 0.5px solid #131313;
+  transition: 0.5s;
+
+  &:hover {
+    -webkit-box-shadow: 5px 4px 18px 1px rgba(167,56,255,0.16);
+    box-shadow: 5px 4px 18px 1px rgba(167,56,255,0.16);
+  }
+}
+
+/**
+ * Cleaning jQuery UI sections
+ */
+.ui-loader {
+  display: none;
+}
+
+.ui-page-active {
+  outline: none;
+}
